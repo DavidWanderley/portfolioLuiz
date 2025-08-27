@@ -1,15 +1,15 @@
-import { FollowCloselySection } from "../../containers/FollowCloselySection/FollowCloselySection";
-import { HeroSection } from "../../containers/HeroSection/HeroSection";
-import { ProduceSection } from "../../containers/ProduceSection/ProduceSection";
+import { FollowCloselySection } from "../../containers/HomeContainers/FollowCloselySection/FollowCloselySection";
+import { HeroSection } from "../../containers/HomeContainers/HeroSection/HeroSection";
+import { ProduceSection } from "../../containers/HomeContainers/ProduceSection/ProduceSection";
 
 export function Home() {
   return (
-    <div className="home-container">
+    <section className="home-container">
       <HeroSection />
       
       <ProduceSection />
 
       <FollowCloselySection />
-    </div>
+    </section>
   );
 }
