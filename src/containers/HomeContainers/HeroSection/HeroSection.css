@@ -3,3 +3,10 @@
 .heroSection {
   padding: 50px 20px;
 }
+
+.heroBanner {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
