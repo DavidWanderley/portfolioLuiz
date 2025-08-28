@@ -1,4 +1,6 @@
 import { CarouselHomeComponents } from "../../../components/HomeComponents/CarouselHomeComponents";
+import { Link } from "react-router-dom";
+
 import "./HeroSection.css";
 
 export function HeroSection() {
@@ -16,8 +18,13 @@ export function HeroSection() {
             para transformar sua experiência. Estamos aqui para ajudar você a
             alcançar seus objetivos com facilidade e eficiência.
           </p>
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
-            Saiba Mais
+          <button>
+            <Link
+              to="/sobre"
+              className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300"
+            >
+              Saiba Mais
+            </Link>
           </button>
         </div>
       </section>

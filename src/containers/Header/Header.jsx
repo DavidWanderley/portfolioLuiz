@@ -3,7 +3,7 @@ import "./Header.css";
 
 export function Header() {
   return (
-    <header className="w-full bg-gray-900 text-white shadow-md">
+    <header className="w-full bg-stone-900 text-white shadow-md">
       <nav className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold">Meu Portfólio</h1>
 
