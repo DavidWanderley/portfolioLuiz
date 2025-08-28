@@ -4,18 +4,10 @@ import "./HeroSection.css";
 export function HeroSection() {
   return (
     <>
-      <section className="heroSection bg-blue-300">
-        <div>
-          <img
-            src="../../../../public/Image/forbellone-card-model-art-52.jpg"
-            alt="image do espaco"
-            className="heroBanner"
-          />
-        </div>
-
+      <section className="heroSection flex flex-col md:flex-row items-center justify-between p-8 bg-gray-50">
         <CarouselHomeComponents />
 
-        <div className="bg-gray-100 p-8 rounded-lg shadow-lg max-w-2xl mx-auto text-center">
+        <div className="bg-gray-100 p-8 rounded-lg shadow-lg max-w-2xl mx-auto text-center ml-7">
           <h1 className="text-3xl font-bold mb-4">
             Bem-vindo à Nossa Plataforma
           </h1>
