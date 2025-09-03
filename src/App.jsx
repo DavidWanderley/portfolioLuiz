@@ -1,5 +1,5 @@
 import "./App.css";
-import { Card } from "./components/HomeComponents/Card";
+import { Card } from "./components/All/Card";
 import { FollowCloselySection } from "./containers/HomeContainers/FollowCloselySection/FollowCloselySection";
 import { HeroSection } from "./containers/HomeContainers/HeroSection/HeroSection";
 
@@ -9,9 +9,9 @@ function App() {
       <section className="home-container">
         <HeroSection />
 
-        <div className="bg-blue-200">
+        <div className="bg-blue-200 py-5">
           <h1>Fotos de artes</h1>
-          <Card image="../../../../public/Image/art.png" />{" "}
+          <Card image="../../../../public/Image/art.png" />
           {/* ao clickar na arte abriria uma nova aba com mais fotos relacionada a arte e  com texto explicando sobre ela */}
         </div>
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../components/HomeComponents/Card";
+import { Card } from "../../../components/All/Card";
 import "./FollowCloselySection.css";
 
 export function FollowCloselySection() {
