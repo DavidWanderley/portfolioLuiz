@@ -10,6 +10,7 @@ import { Contato } from "./pages/Contato/Contato";
 import { Home } from "./pages/Home/Home";
 import { Portfolio } from "./pages/Portfolio/Portfolio";
 import { Orçamento } from "./pages/Orçamento/Orçamento";
+import { NotFound } from "./pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/orçamento" element={<Orçamento />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
